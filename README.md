@@ -33,4 +33,13 @@ cameraonTX2
 - [image_view](https://github.com/ros-perception/image_pipeline/tree/indigo/image_view): image output with terminal window
 - [vision_opencv](https://github.com/ros-perception/vision_opencv): relyon
 
-
+## Build
+Build either solver1 or solver2 as below,
+```sh
+git clone https://github.com/zhudaoruyi/cameraonTX2.git
+mkdir catkin_ws
+cd catkin_ws
+cp ../cameraonTX2/solver1/src .
+catkin_make
+source devel/setup.bash
+```
