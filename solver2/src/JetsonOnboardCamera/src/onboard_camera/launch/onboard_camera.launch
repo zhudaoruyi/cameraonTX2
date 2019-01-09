@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="width" default="1280" />
+    <arg name="height" default="720" />
+    <arg name="fps" default="40" />
+    
+    <node name="onboard_camera_image_sender_node" pkg="onboard_camera" type="image_publisher" args="$(arg width) $(arg height) $(arg fps)" output="screen"/>
+</launch>

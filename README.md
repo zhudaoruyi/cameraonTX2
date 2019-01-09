@@ -14,7 +14,7 @@ cameraonTX2
 │       ├── JetsonOnbardCamera
 │       ├── image_view
 │       └── vision_opencv
-├── README.txt
+└── README.txt
 ```
 ## Environment
 - hardware
@@ -24,13 +24,13 @@ cameraonTX2
     * ubuntu 16.04
     * ROS kinetic
 ## Solver 1
-- [jetson_csi_cam](https://github.com/peter-moran/jetson_csi_cam)
-- [gscam](https://github.com/ros-drivers/gscam)
-- [image_view](https://github.com/ros-perception/image_pipeline/tree/indigo/image_view)
-- [vision_opencv](https://github.com/ros-perception/vision_opencv)
+- [jetson_csi_cam](https://github.com/peter-moran/jetson_csi_cam): main package
+- [gscam](https://github.com/ros-drivers/gscam): relyon
+- [image_view](https://github.com/ros-perception/image_pipeline/tree/indigo/image_view): image output with terminal window
+- [vision_opencv](https://github.com/ros-perception/vision_opencv): relyon
 ## Solver 2
-- [JetsonOnbardCamera](https://github.com/Dengjianping/JetsonOnboardCamera)
-- [image_view](https://github.com/ros-perception/image_pipeline/tree/indigo/image_view)
-- [vision_opencv](https://github.com/ros-perception/vision_opencv)
+- [JetsonOnbardCamera](https://github.com/Dengjianping/JetsonOnboardCamera): main package
+- [image_view](https://github.com/ros-perception/image_pipeline/tree/indigo/image_view): image output with terminal window
+- [vision_opencv](https://github.com/ros-perception/vision_opencv): relyon
 
 
